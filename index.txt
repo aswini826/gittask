@@ -12,7 +12,17 @@
    
    SHERIN F:
    
-   SOWMIYA MS:
+   SOWMIYA MS:*The every() method tests whether all elements in the array pass the test implemented by the provided function. 
+              *It returns a Boolean value.
+              *It is an iterative function,it will execute untill the false value is present.
+              *This function is called with arguments of the current element,the index of the current element and the array.
+              (eg):
+              function isBigEnough(element, index, array) {
+              return element >= 10;
+              }
+              [12, 5, 8, 130, 44].every(isBigEnough);
+              //expected output false
+   
    
    ASHMITHA S
    
