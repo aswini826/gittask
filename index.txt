@@ -42,7 +42,17 @@
    
    SHERIN F:It will filter the values from an array
    
-   SOWMIYA MS:
+   SOWMIYA MS:*The filter() method creates a new array filled with elements that pass a test provided by a function.
+              *The filter() method is an iterative method. 
+              *The filter() method is a copying method. 
+              *It does not alter this but instead returns a shallow copy that contains the same elements as the ones from the original array.
+              (eg):
+              function isBigEnough(value) {
+              return value >= 10;
+              }
+
+              const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+              // filtered is [12, 130, 44]
    
    ASHMITHA S                                               
                                                Array.prototype.find()
