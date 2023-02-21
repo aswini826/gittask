@@ -1,2 +1,39 @@
-Hey guys
-Hi!
+                                                 Array.prototype.slice()
+                                                
+   ASWINI A:
+   
+   SHERIN F:
+   
+   SOWMIYA MS:
+   
+   ASHMITHA S
+   
+   
+                                               Array.prototype.fill()
+   ASWINI A:
+   
+   SHERIN F:
+   
+   SOWMIYA MS:
+   
+   ASHMITHA S                                               
+                                               Array.prototype.filter()
+                                               
+                                               
+   ASWINI A:
+   
+   SHERIN F:
+   
+   SOWMIYA MS:
+   
+   ASHMITHA S                                               
+                                               Array.prototype.find()
+                                               
+                                               
+    ASWINI A:
+   
+   SHERIN F:
+   
+   SOWMIYA MS:
+   
+   ASHMITHA S                                            
