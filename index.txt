@@ -1,6 +1,7 @@
                                                  Array.prototype.every()
                                                 
-   ASWINI A:
+   ASWINI A:    *This ever() method is check whether atleast one item in the array fulfill a particular condition.
+                *It return in Boolean Value.
    
    SHERIN F:
    
