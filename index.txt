@@ -2,6 +2,12 @@
                                                 
    ASWINI A:    *This ever() method is check whether atleast one item in the array fulfill a particular condition.
                 *It return in Boolean Value.
+                const numbers=[1,2,3,4];
+                const test=numbers.every(isPositive);
+                function isPositive(item) {
+                return item < 0;
+                }
+                console.log(test);   //excepted output true
    
    SHERIN F:
    
