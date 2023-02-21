@@ -2,6 +2,7 @@
                                                 
    ASWINI A:    *This every() method is check whether atleast one item in the array fulfill a particular condition.
                 *It return in Boolean Value.
+                (eg):
                 const numbers=[1,2,3,4];
                 const test=numbers.every(isPositive);
                 function isPositive(item) {
