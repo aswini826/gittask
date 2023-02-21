@@ -22,7 +22,7 @@
                                                
    ASWINI A:
    
-   SHERIN F:
+   SHERIN F:It will filter the values from an array
    
    SOWMIYA MS:
    
