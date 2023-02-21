@@ -10,7 +10,17 @@
                 }
                 console.log(test);   //excepted output true
    
-   SHERIN F:
+   SHERIN F: 
+              >every means "all"
+              >array.prototype.every() is a method to check a condition is true or false for all elements in an array.
+              >It returns a Boolean value (True or False).
+              >Even if a single element is false, then the expected output will also be false.
+              
+              ex : const numbers=[200,150,240,125];
+                   function isGreater100(n){
+                   return n>100;}
+                   console.log(numbers.every(isGreater100));
+                   
    
    SOWMIYA MS:*The every() method tests whether all elements in the array pass the test implemented by the provided function. 
               *It returns a Boolean value.
@@ -30,7 +40,11 @@
                                                Array.prototype.fill()
    ASWINI A:
    
-   SHERIN F:
+   SHERIN F:   array.prototype.fill()-> It changes all the elements in an array with the given value.
+   
+               ex : const numbers=[1,2,3,4,5];
+                    const num1=numbers.fill(0,1,4);
+                    console.log(num1); //expected output:[1,0,0,0,5]
    
    SOWMIYA MS:
    
@@ -40,19 +54,19 @@
                                                
    ASWINI A:
    
-   SHERIN F:It will filter the values from an array
+   SHERIN F: 
+               >It will filter the desired elements from an array.
+               >(i.e)All the elements that satisfies the condition given will get displayed in the output.
+               >It has a relationship with find() method.
+                 *find() method will get you the first element satisfying the condition,whereas, 
+                 *filter() method will get you all the condition satisfying elements.
+                 
+                 ex : const numbers =[28,40,18,67,74];
+                      let result=numbers.filter((value) =>{
+                      return value > 50;});
+                      console.log(result); //expected output:[67,74];
    
-   SOWMIYA MS:*The filter() method creates a new array filled with elements that pass a test provided by a function.
-              *The filter() method is an iterative method. 
-              *The filter() method is a copying method. 
-              *It does not alter this but instead returns a shallow copy that contains the same elements as the ones from the original array.
-              (eg):
-              function isBigEnough(value) {
-              return value >= 10;
-              }
-
-              const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
-              // filtered is [12, 130, 44]
+   SOWMIYA MS:
    
    ASHMITHA S                                               
                                                Array.prototype.find()
@@ -60,7 +74,15 @@
                                                
     ASWINI A:
    
-   SHERIN F:
+   SHERIN F: 
+             >array.prototype.find()-> It is used to find an element in an array, which is first to satisfy the condition given.
+             >The other elements even if they satisfy the condition will not get displayed.
+             ex : const numbers =[28,40,18,67,74];
+                  let result=numbers.find((value) =>{
+                  return value > 50;});
+                  console.log(result); //expected output:67;
+                  
+                  
    
    SOWMIYA MS:
    
