@@ -59,11 +59,11 @@
                     const num1=numbers.fill(0,1,4);
                     console.log(num1); //expected output:[1,0,0,0,5]
    
-   SOWMIYA MS:The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array
-   syntax
-   fill(value)
-fill(value, start)
-fill(value, start, end)
+   SOWMIYA MS:The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns               the modified array
+              syntax
+             fill(value)
+              fill(value, start)
+               fill(value, start, end)
    
    ASHMITHA S: *It changes all the value inside an array with the provided value.
                (Example):
@@ -93,7 +93,14 @@ fill(value, start, end)
                       return value > 50;});
                       console.log(result); //expected output:[67,74];
    
-   SOWMIYA MS:
+   SOWMIYA MS: *array.prototype.filter() method is used to filter the elements in a arrays that satisfies the given condition.
+               Syntax : array.filter(function(currentValue, index, arr), thisValue)
+               ex : const ages = [32, 33, 16, 40];
+                    const result = ages.filter(checkAdult);
+                    function checkAdult(age) {
+                    return age >= 18;
+                    }
+                   
    
    ASHMITHA S:*The array filter method creates a new array by removing all the elements which the callback function returns false.
                (Example):
