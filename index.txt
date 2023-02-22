@@ -34,8 +34,18 @@
               //expected output false
    
    
-   ASHMITHA S
-   
+   ASHMITHA S: *It executes the given function on every times of an array.
+               *It returns true only if the callback function returns true T value for all the items inside the array.
+               *If false value is found it returns false immediately.
+               (Example):
+                const numbers=[1,2,3,4,5];
+                const result=numbers.every(isPositive);
+                function isPositive(item);
+                  return item>0;
+                 }
+                 console.log(result);
+               (Output):
+               true
    
                                                Array.prototype.fill()
    ASWINI A:    *The Javascript arr.fill() method is used to fill the array with a given static value. The value can be used to fill the entire array or it can be                     used to fill a part of the array.
@@ -51,7 +61,13 @@
    
    SOWMIYA MS:
    
-   ASHMITHA S                                               
+   ASHMITHA S: *It changes all the value inside an array with the provided value.
+               (Example):
+               const numbers=[1,2,3,4,5];
+               number.fill(0);
+               console.log(numbers;
+               (Output):
+               [0,0,0,0,0]
                                                Array.prototype.filter()
                                                
                                                
@@ -75,7 +91,14 @@
    
    SOWMIYA MS:
    
-   ASHMITHA S                                               
+   ASHMITHA S:*The array filter method creates a new array by removing all the elements which the callback function returns false.
+               (Example):
+               const numbers=[34,4,65,12,78];
+               Let res=numbers.filter((value)=>{
+                return value>50});
+               console.log(result);
+               (Output):
+               [65,78]
                                                Array.prototype.find()
                                                
                                                
@@ -94,4 +117,4 @@
    
    SOWMIYA MS:
    
-   ASHMITHA S                                            
+   ASHMITHA S:                                            
