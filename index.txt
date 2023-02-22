@@ -38,7 +38,10 @@
    
    
                                                Array.prototype.fill()
-   ASWINI A:
+   ASWINI A:    *The Javascript arr.fill() method is used to fill the array with a given static value. The value can be used to fill the entire array or it can be                     used to fill a part of the array.
+                   Syntax:
+                       arr.fill(value, start, end)
+   
    
    SHERIN F:   array.prototype.fill()-> It changes all the elements in an array with the given value.
    
@@ -52,7 +55,11 @@
                                                Array.prototype.filter()
                                                
                                                
-   ASWINI A:
+   ASWINI A:      *The filter() mathod is used to perform filtering of array items based on a set of conditions.
+                       eg:
+                       const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+                       const result = words.filter(word => word.length > 6);
+                       console.log(result);// Expected output: Array ["exuberant", "destruction", "present"]
    
    SHERIN F: 
                >It will filter the desired elements from an array.
@@ -72,7 +79,8 @@
                                                Array.prototype.find()
                                                
                                                
-    ASWINI A:
+    ASWINI A:   *The find() method returns the first element in the provided array that satisfies the  particular condition.
+                *If the condition is not satisfied then it return undefined.
    
    SHERIN F: 
              >array.prototype.find()-> It is used to find an element in an array, which is first to satisfy the condition given.
