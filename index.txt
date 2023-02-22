@@ -111,10 +111,18 @@
              ex : const numbers =[28,40,18,67,74];
                   let result=numbers.find((value) =>{
                   return value > 50;});
-                  console.log(result); //expected output:67;
+                  console.log(res); //expected output:67;
                   
                   
    
    SOWMIYA MS:
    
-   ASHMITHA S:                                            
+   ASHMITHA S:  *It search inside of the array and it will return the first element for which the callback function returns the true value.
+                *If it doesn't find true then return undefined.
+                (Example):
+                 const numbers=[34,4,65,12,78];
+               Let res=numbers.find((value)=>{
+                return value>50});
+               console.log(res);
+               (Output):
+               [65]
