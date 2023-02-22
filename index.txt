@@ -8,7 +8,7 @@
                 function isPositive(item) {
                 return item < 0;
                 }
-                console.log(test);   //excepted output true
+                console.log(test);   //excepted output true.
    
    SHERIN F: 
               >every means "all"
