@@ -59,7 +59,11 @@
                     const num1=numbers.fill(0,1,4);
                     console.log(num1); //expected output:[1,0,0,0,5]
    
-   SOWMIYA MS:
+   SOWMIYA MS:The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array
+   syntax
+   fill(value)
+fill(value, start)
+fill(value, start, end)
    
    ASHMITHA S: *It changes all the value inside an array with the provided value.
                (Example):
@@ -115,7 +119,22 @@
                   
                   
    
-   SOWMIYA MS:
+   SOWMIYA MS:The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
+   syntax
+   // Arrow function
+find((element) => { /* … */ })
+find((element, index) => { /* … */ })
+find((element, index, array) => { /* … */ })
+
+// Callback function
+find(callbackFn)
+find(callbackFn, thisArg)
+
+// Inline callback function
+find(function (element) { /* … */ })
+find(function (element, index) { /* … */ })
+find(function (element, index, array) { /* … */ })
+find(function (element, index, array) { /* … */ }, thisArg
    
    ASHMITHA S:  *It search inside of the array and it will return the first element for which the callback function returns the true value.
                 *If it doesn't find true then return undefined.
